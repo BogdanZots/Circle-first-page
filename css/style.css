@@ -25,7 +25,7 @@ font-family: 'Noto Sans', sans-serif;
 	font-family: Noto Sans;
 font-style: normal;
 font-weight: 500;
-font-size: 16px;
+font-size: 18px;
 line-height: 22px;
 /* identical to box height */
 color: #484848;
@@ -115,7 +115,7 @@ color: #69707E;
 font-family: Noto Sans;
 font-style: normal;
 font-weight: bold;
-font-size: 20px;
+font-size: 22px;
 line-height: 27px;
 color: #F2F6FD;
 width: 237px;
@@ -175,7 +175,7 @@ max-width: 540px;
 	font-family: Noto Sans;
 font-style: normal;
 font-weight: 900;
-font-size: 32px;
+font-size: 35px;
 line-height: 44px;
 /* identical to box height */
 
@@ -191,7 +191,7 @@ color: #200E32;
 font-family: Noto Sans;
 font-style: normal;
 font-weight: 600;
-font-size: 16px;
+font-size: 18px;
 line-height: 22px;
 /* identical to box height */
 
@@ -233,7 +233,7 @@ margin-left: 0;
 	font-family: Noto Sans;
 font-style: normal;
 font-weight: normal;
-font-size: 12px;
+font-size: 14px;
 line-height: 140%;
 /* or 17px */
 
@@ -257,7 +257,7 @@ max-width: 100%;
 	font-family: Noto Sans;
 font-style: normal;
 font-weight: 500;
-font-size: 10px;
+font-size: 15px;
 line-height: 14px;
 padding-top: 16px;
 padding-left: 15px;
@@ -270,7 +270,7 @@ color: rgba(255, 255, 255, 0.3);
 	font-family: Noto Sans;
 font-style: normal;
 font-weight: bold;
-font-size: 20px;
+font-size: 24px;
 line-height: 27px;
 padding-left: 15px;
 color: #FFFFFF;
@@ -361,7 +361,7 @@ border-radius: 4px;
 	font-family: Noto Sans;
 font-style: normal;
 font-weight: 900;
-font-size: 24px;
+font-size: 26px;
 line-height: 33px;
 /* identical to box height */
 
@@ -378,7 +378,7 @@ color: #200E32;
 	font-family: Noto Sans;
 font-style: normal;
 font-weight: 900;
-font-size: 32px;
+font-size: 36px;
 line-height: 44px;
 /* identical to box height */
 
@@ -392,7 +392,7 @@ color: #200E32;
 	font-family: Noto Sans;
 font-style: normal;
 font-weight: normal;
-font-size: 14px;
+font-size: 16px;
 line-height: 140%;
 /* or 20px */
 
@@ -471,7 +471,7 @@ footer{
 	font-family: Noto Sans;
 font-style: normal;
 font-weight: 500;
-font-size: 12px;
+font-size: 16px;
 line-height: 16px;
 
 color: rgba(255, 255, 255, 0.8);
@@ -480,7 +480,7 @@ color: rgba(255, 255, 255, 0.8);
 	font-family: Noto Sans;
 font-style: normal;
 font-weight: bold;
-font-size: 12px;
+font-size: 20px;
 line-height: 16px;
 
 color: #FFFFFF;
@@ -492,7 +492,7 @@ color: #FFFFFF;
 	font-family: Noto Sans;
 font-style: normal;
 font-weight: 500;
-font-size: 10px;
+font-size: 18px;
 line-height: 14px;
 
 /* identical to box height */
@@ -582,7 +582,7 @@ margin-left: auto;
 	font-family: Montserrat;
 font-style: normal;
 font-weight: 500;
-font-size: 12px;
+font-size: 14px;
 line-height: 15px;
 /* identical to box height */
 
@@ -618,4 +618,41 @@ color: #D8DFEC;
 }
 .fix-item {
     min-width: 190px;
+}
+.btn__buy-tickets{
+	display: inline-flex;
+	align-items: center;
+	position: fixed;
+	right: 15%;
+	padding: 16px;
+	width: 140px;
+	height: 72px;
+	top: 80%;
+	cursor: pointer;
+	background: #FFD600;
+	box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2);
+border-radius: 16px;
+	font-family: 'Montserrat';
+	font-weight: 700;
+	line-height: 19.5px;
+	transition: all  .2s;
+	z-index: 9999999999;
+}
+.btn__buy-tickets:hover{
+	background: #FFB800;
+}
+.btn-img__item{
+	transition: all .2s;
+	min-height: 15px;
+	min-width: 12px;
+	background: url('../img/arrowR-btn.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.btn__buy-tickets:hover .btn-img__item{
+	background:url('../img/Star-btn.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-width: 15px;
+
 }
