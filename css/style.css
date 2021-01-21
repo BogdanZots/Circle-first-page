@@ -50,6 +50,10 @@ margin-left: auto;
 .nav-ul{
 	display: flex;
 }
+a{
+	text-decoration: none;
+	color: black;
+}
 .main-circus {
 	background: #F8F9FA;
 	overflow-x: hidden;
@@ -172,7 +176,7 @@ max-width: 540px;
 	justify-content: space-between;
 }
 .news__title-h3 {
-	font-family: Noto Sans;
+    font-family: 'Montserrat';
 font-style: normal;
 font-weight: 900;
 font-size: 35px;
@@ -472,7 +476,7 @@ footer{
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
-line-height: 16px;
+line-height: 32px;
 
 color: rgba(255, 255, 255, 0.8);
 }
@@ -487,6 +491,8 @@ color: #FFFFFF;
 }
 .footer__top-item-adress {
 	margin-bottom: 18px;
+	font-size: 16px;
+	line-height: 32px;
 }
 .footer__top-teletail-left {
 	font-family: Noto Sans;
@@ -563,7 +569,7 @@ margin-left: auto;
 }
 .footer__bottom {
 	background: #121212;
-	padding: 33px 0px;
+	padding: 15px 0px;
 }
 .footer__bottom-inner{
 	display: flex;
@@ -640,19 +646,19 @@ border-radius: 16px;
 }
 .btn__buy-tickets:hover{
 	background: #FFB800;
+	box-shadow: none;
 }
 .btn-img__item{
 	transition: all .2s;
 	min-height: 15px;
-	min-width: 12px;
-	background: url('../img/arrowR-btn.png');
+	min-width: 15px;
+	background:url('../img/Star-btn.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 .btn__buy-tickets:hover .btn-img__item{
-	background:url('../img/Star-btn.png');
+	background: url('../img/arrowR-btn.png');
 	background-repeat: no-repeat;
 	background-size: cover;
-	min-width: 15px;
-
+	min-width: 12px;
 }
